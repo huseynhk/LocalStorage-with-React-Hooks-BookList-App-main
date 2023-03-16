@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #400;
+
+}
+.wrapper{
+    background-color: #400;
+}
+
+.wrapper .form-container{
+    width: 500px;
+    height: 270px;
+    background-color:#400;
+    margin: 20px auto;
+    padding:20px;  
+    color: #ccc;
+    text-align: center;
+}
+
+
+.wrapper .form-container .btn{
+    width: 100%; 
+    margin-top: 25px;
+}
+
+.wrapper .view-container{
+    width: 475px;
+    background-color: #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #400;
+    border-radius:50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.delete-btn{
+    color: rgb(150, 0, 0);
+}
+
+tbody{
+    margin-top: 25px;
+}
